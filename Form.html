@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+    </head>
+
+    <body>
+        <h2>Registration Form</h2>
+
+        <form>
+            <div>
+                <label for="fullname">Full Name: </label>
+                <input type="text" name="fullname" id="fullname" required>
+            </div><br>
+
+            <div>
+                <label for="e-mail">E-mail: </label>
+                <input type="e-mail" name="e-mail" id="e-mail">
+            </div><br>
+
+            <div>
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password">
+            </div><br>
+
+            <div>
+                <label for="dob">Date of Birth: </label>
+                <input type="date" name="dob" id="dob">
+            </div><br>
+
+            <div>
+                <label for="photo">Choose your photo: </label>
+                <input type="file" name="photo" id="photo">
+            </div><br>
+
+            <div>
+                <label for="gender">Gender: </label>
+                <input type="radio" name="gender" id="gender" value="male">Male
+                <input type="radio" name="gender" id="gender" value="female">Female
+            </div><br>
+
+            <div>
+                <label for="religion">Religion: </label>
+                <input type="checkbox" name="c1" id="muslim" value="islam">Islam
+                <input type="checkbox" name="c2" id="hindu" value="Hindu">Hindu
+            </div><br>
+
+            <div>
+                <label for="department">Department: </label>
+                <select name="department">
+                    <option value="cse" selected>CSE</option>
+                    <option value="eee">EEE</option>
+                    <option value="ce">CE</option>
+                    <option value="llb">LLB</option>
+                    <option value="english">English</option>
+                </select>
+            </div><br>
+
+            <div>
+                <label for="message">Message: </label>
+                <textarea cols="30" rows="20"></textarea>
+            </div><br>
+
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Cancel">
+            </div>
+        </form>
+    </body>
+</html>
